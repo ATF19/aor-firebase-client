@@ -1,70 +1,80 @@
 {
-  "name": "aor-firebase-client",
-  "version": "0.3.1",
+  "_from": "aor-firebase-client",
+  "_id": "aor-firebase-client@0.0.10",
+  "_inBundle": false,
+  "_integrity": "sha1-xZO1Vs0FNE1qkwn0+jFYqlmP2JA=",
+  "_location": "/aor-firebase-client",
+  "_phantomChildren": {
+    "create-react-class": "15.6.2",
+    "fbjs": "0.8.16",
+    "loose-envify": "1.3.1",
+    "object-assign": "4.1.1",
+    "prop-types": "15.6.0"
+  },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "aor-firebase-client",
+    "name": "aor-firebase-client",
+    "escapedName": "aor-firebase-client",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/aor-firebase-client/-/aor-firebase-client-0.0.10.tgz",
+  "_shasum": "c593b556cd05344d6a9309f4fa3158aa598fd890",
+  "_spec": "aor-firebase-client",
+  "_where": "C:\\Users\\ElMay\\Desktop\\myresto\\admin-dashboard",
+  "author": {
+    "name": "Sid Ferreira"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "firebase": "^4.1.3",
+    "react": "^15.6.1"
+  },
+  "deprecated": false,
   "description": "Firebase Client for Admin On Rest",
-  "main": "lib/index.js",
-  "scripts": {
-    "test": "jest",
-    "build": "babel src -d lib",
-    "prepare": "yarn run build"
+  "devDependencies": {
+    "admin-on-rest": "^1.2.1",
+    "babel-cli": "^6.24.1",
+    "babel-jest": "^20.0.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "jest": "^20.0.4",
+    "jest-cli": "^20.0.4",
+    "jest-localstorage-mock": "^1.2.0",
+    "react-test-renderer": "^15.6.1"
   },
-  "author": "Sid Ferreira",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/sidferreira/aor-firebase-client.git"
-  },
-  "license": "ISC",
   "files": [
     "LICENSE",
     "*.md",
     "lib",
     "src"
   ],
+  "jest": {
+    "testEnvironment": "node",
+    "setupFiles": [
+      "jest-localstorage-mock"
+    ]
+  },
   "keywords": [
     "admin-on-rest",
     "react",
     "firebase",
     "rest"
   ],
-  "dependencies": {
-    "@firebase/app-types": "0.x",
-    "firebase": "^4.13.1",
-    "react": "^15.6.2",
-    "react-dom": "^15.6.1",
-    "sort-by": "^1.2.0"
+  "license": "ISC",
+  "main": "lib/index.js",
+  "name": "aor-firebase-client",
+  "scripts": {
+    "build": "babel src -d lib",
+    "prepare": "yarn run build",
+    "test": "jest"
   },
-  "devDependencies": {
-    "admin-on-rest": "^1.4.1",
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.0",
-    "babel-jest": "^20.0.3",
-    "babel-loader": "^7.1.4",
-    "babel-plugin-add-module-exports": "^0.2.1",
-    "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-plugin-transform-runtime": "^6.23.0",
-    "babel-polyfill": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
-    "babel-preset-stage-0": "^6.24.1",
-    "babel-runtime": "^6.26.0",
-    "eslint": "^4.7.1",
-    "eslint-config-standard": "^10.2.1",
-    "eslint-config-standard-jsx": "^4.0.2",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-node": "^5.1.1",
-    "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-react": "^7.3.0",
-    "eslint-plugin-standard": "^3.0.1",
-    "jest": "^20.0.4",
-    "jest-cli": "^20.0.4",
-    "jest-localstorage-mock": "^1.2.0",
-    "react-test-renderer": "^15.6.1"
-  },
-  "jest": {
-    "testEnvironment": "node",
-    "setupFiles": [
-      "jest-localstorage-mock"
-    ]
-  }
+  "version": "0.0.10"
 }
